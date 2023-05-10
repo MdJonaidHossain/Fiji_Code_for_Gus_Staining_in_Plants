@@ -1,10 +1,11 @@
-Fiji Macro Script - Image Analysis and Processing
+##Fiji Macro Script - Image Analysis and Processing
 This Fiji Macro Script automates the image processing and analysis of a directory containing multiple RAW images in the Fiji platform. The script applies a set of filters, thresholds, and measurements to extract and quantify specific particle features, while also allowing the user to input treatment and genotype information for each image.
 
 
-Requirements
+#Requirements
 Fiji (version > 1.53c)
-Usage
+
+#Usage
 Open Fiji and load the macro script.
 Run the macro.
 When prompted, select the directory containing the input images, the directory where the output text file will be saved, and the directory where the output images will be saved.
@@ -13,7 +14,7 @@ The script will process and analyze each image and save the results as a text fi
 
 
 
-How to Use
+#How to Use
 Download and install Fiji (https://fiji.sc/#download)
 Place your RAW images into a single directory on your computer
 Open Fiji and run the script by dragging and dropping the script into the Fiji toolbar
@@ -26,7 +27,7 @@ The script will save a text file summarizing the particle analysis results in th
 
 
 
-Script Details
+#Script Details
 The script applies a median filter with a radius of 25 pixels to each image to remove any noise.
 The script converts the image to 8-bit to save memory.
 The script automatically determines the threshold using the MinError method and ignores white regions.
@@ -40,7 +41,7 @@ The script saves the processed image as a TIFF file in the specified output dire
 
 
 
-Outputs
+#Outputs
 A text file summarizing the particle analysis results for each image.
 Processed TIFF images containing the specific particle features.
 Note: If you want to edit the script, please copy the code into a new file instead of modifying the original file to avoid any potential issues.
