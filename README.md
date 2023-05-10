@@ -1,4 +1,4 @@
-Fiji Macro Script - Image Analysis and Processing
+//Fiji Macro Script - Image Analysis and Processing
 This Fiji Macro Script automates the image processing and analysis of a directory containing multiple RAW images in the Fiji platform. The script applies a set of filters, thresholds, and measurements to extract and quantify specific particle features, while also allowing the user to input treatment and genotype information for each image.
 
 Requirements
