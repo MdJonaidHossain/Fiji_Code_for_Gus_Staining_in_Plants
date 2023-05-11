@@ -135,4 +135,4 @@ for (i = 0; i < images.length; i++) {
 close("*");
 
 // Print message when processing is done
-print("It's done!");
+print("Processing done!");
